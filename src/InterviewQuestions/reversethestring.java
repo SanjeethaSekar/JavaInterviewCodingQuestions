@@ -4,7 +4,7 @@ public class reversethestring {
 	
 	public static void main(String args[])
 	{
-		String s ="Sanjeetha",rev ="";
+		String s ="Sanjeetha is a good girl",rev ="";
 		char[] c = s.toCharArray();
 		//System.out.println(c.length);
 		//using for loop and starting from 0th index
@@ -28,5 +28,12 @@ public class reversethestring {
 		StringBuffer sb = new StringBuffer(s);
 		StringBuffer revs =sb.reverse();
 		System.out.println(revs);
+		
+		//using StringBuilder class
+		StringBuilder sbb = new StringBuilder(s);
+		StringBuilder rev2 = sbb.reverse();
+		System.out.println(rev2);
+		
+		
 }
 }
